@@ -1,0 +1,30 @@
+---
+label: Blog Post
+hide_body: false
+fields:
+- type: text
+  label: Post Title
+  name: title
+  config:
+    required: true
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - Emiliano Bovetti
+    - Federico Pinneri
+    - Michele Zuppi
+    required: true
+  label: Author
+  name: author
+  default: Emiliano Bovetti
+- type: datetime
+  name: date
+  label: Publication Date
+  config:
+    date_format: DD/MM/YYYY
+    required: true
+pages:
+- content/posts/second-post-here.md
+- content/posts/hello-from-forestry-io.md

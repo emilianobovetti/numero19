@@ -1,0 +1,1 @@
+# Numero 19 [![Build Status](https://travis-ci.org/emilianobovetti/numero19.svg?branch=master)](https://travis-ci.org/emilianobovetti/numero19) [![Netlify Status](https://api.netlify.com/api/v1/badges/cfb2a77d-0214-4130-8b90-246e7f515b51/deploy-status)](https://app.netlify.com/sites/numero19/deploys)

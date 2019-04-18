@@ -1,0 +1,14 @@
+[posts]
+other = "Post"
+
+[about]
+other = "Informazioni"
+
+[author]
+other = "Autore"
+
+[generator]
+other = "Realizzato con <a href='https://gohugo.io'>Hugo</a> e <a href='https://github.com/EmielH/tale-hugo/'>Tale</a>."
+
+[publishdate]
+other = "{{ .PublishDate.Day }} {{ index $.Site.Data.months_it (printf \"%d\" .PublishDate.Month) }} {{ .PublishDate.Year }}"
