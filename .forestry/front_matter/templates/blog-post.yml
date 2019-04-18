@@ -19,12 +19,6 @@ fields:
   label: Author
   name: author
   default: Emiliano Bovetti
-- type: datetime
-  name: date
-  label: Publication Date
-  config:
-    date_format: DD/MM/YYYY
-    required: true
 pages:
 - content/posts/second-post-here.md
 - content/posts/hello-from-forestry-io.md
