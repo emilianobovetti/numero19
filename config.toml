@@ -1,4 +1,4 @@
-baseURL = "http://numero19.netlify.com/"
+baseURL = "https://numero19.netlify.com/"
 defaultContentLanguage = "it"
 languageCode = "it"
 title = "Numero 19"
