@@ -1,0 +1,11 @@
+<div class="post-info">
+  {{- if .Params.Author }}
+    <span>{{ i18n "author" }}:</span> {{ .Params.Author }}
+
+    {{- if .PublishDate }}<br>{{- end }}
+  {{- end }}
+
+  {{- if .PublishDate }}
+    <time datetime="{{ .PublishDate }}">{{ i18n "publishdate" . }}</time>
+  {{- end }}
+</div>

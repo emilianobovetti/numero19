@@ -1,0 +1,22 @@
+---
+label: Blog Post
+hide_body: false
+fields:
+- type: text
+  label: Post Title
+  name: title
+  config:
+    required: true
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - Emiliano Bovetti
+    required: true
+  label: Author
+  name: author
+  default: Emiliano Bovetti
+pages:
+- content/posts/second-post-here.md
+- content/posts/hello-from-forestry-io.md
