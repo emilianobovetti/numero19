@@ -18,5 +18,5 @@ fields:
   name: author
   default: Emiliano Bovetti
 pages:
-- content/posts/second-post-here.md
 - content/posts/hello-from-forestry-io.md
+- content/posts/second-post-here.md
