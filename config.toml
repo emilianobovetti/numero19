@@ -1,0 +1,9 @@
+baseURL = "https://numero19.netlify.app"
+defaultContentLanguage = "it"
+languageCode = "it"
+title = "Numero 19"
+theme = "tale"
+
+[params]
+  author = "Emiliano Bovetti"
+  description = "Fun(?) Facts"
